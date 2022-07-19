@@ -1,5 +1,5 @@
 # PAYROLL
-Exploratory data analysis made on Los Angeles city government employee payroll dataset.
+Exploratory data analysis made on Los Angeles city government employee payroll dataset. Source: https://www.kaggle.com/datasets/dsfelix/employees-payroll-in-los-angeles
 Initial cleaning:
 * First, we import all the required libraries.
 * Then we load the data into a data frame called DF.
