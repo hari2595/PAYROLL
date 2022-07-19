@@ -1,0 +1,32 @@
+Initial cleaning:
+* First, we import all the required libraries.
+* Then we load the data into a data frame called DF.
+* Then we analyze the structure of the data, look for missing values, and the data types of the columns.
+o Findings:
+* There are less than 1%missing values in columns: JOB_CLASS_PGRADE, MOU, MOU_TITLE, REGULAR_PAY, OVERTIME_PAY, ALL_OTHER_PAY, GENDER, ETHNICITY.
+* There are negative values in REGULAR_PAY, OVERTIME_PAY, ALL_OTHER_PAY, and TOTAL_PAY which should also be removed.
+* There are minimum values in TOTAL_PAY which is less than the minimum wage which is not possible.
+o Steps taken:
+* Since both these findings only affect less than 1 % of the data, we can remove these records.
+* We also remove data that are clearly less than minimum wage and not from the year 2022 because we only have 6 months of data from 2022.
+Exploratory analysis:
+* We try to know more about the data by knowing the unique categories of DEPARTMENT_TITLE, ETHNICITY, and YEAR.
+* We check the general trend of incomes and outcomes.
+* We check gender-wise pay trends
+* We check ethnicity-wise pay differences.
+* We also check department-wise pay and contribution.
+* Finally, we check the least and most paying jobs
+o Findings:
+* There is a sharp hike in regular pay which in turn affected the total pay in 2019-2020.
+* All other pay took a slight dip from 2016 – 2019
+* Everything dipped in 2020 due to covid.
+* Men in general get paid more than women
+* Upon further analysis men in general also work more overtime than women.
+* When it comes to pension contribution men are slightly paying more than women.
+* When it comes to ethnicity Asian American, American Indian/ Alaskan Native, Native Americans, Caucasians, and Filipino are the Top 5 top earners.
+* When it comes to retirement contributions American Indians, Asians, Caucasians, Hispanics, and Filipino are the Top 5 contributors. 
+* When it comes to departments Fire, Public accountability, Los Angeles City Tourism, Water and power, and City attorney are the top 5 highest paid in average.
+* Library, Cultural Affairs, Coliseum, Parks and recreation, CIFD are the least paid.
+* When it comes to retirement contribution Fire, Public accountability, Los Angeles City Tourism, police, and City attorneys are the top 5 highest contributors in average.
+* When it comes to jobs CHIEF PORT PILOT II, PORT PILOT II, GNL MGR & CHF ENGR WP are the top 3 highest paid jobs.
+* ELECTION CLERK, GENERAL MANAGER NEIGHBORHOOD EMPOWERMENT I, and LOCKER ROOM ATTENDANT are the lowest paid jobs.
